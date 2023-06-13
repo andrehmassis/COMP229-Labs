@@ -1,6 +1,12 @@
-console.log("Hello World")
+'use strict'
 
-let myvariable = 10;
-for(let i=0; i<=myvariable; i++){
-console.log(i);
+console.log("Hello World!")
+
+let myVariable = 10;
+
+for(let i=0; i<myVariable; i++)
+{
+    console.log(i)
 }
+
+console.log("the index is: " + i)
