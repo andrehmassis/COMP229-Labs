@@ -1,0 +1,33 @@
+{
+  "name": "week04_0602",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.7.0",
+    "mongoose": "^7.2.2",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
+  },
+  "description": "Week 4 Lab",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrehmassis/COMP229-Labs/tree/main/Week4_0613"
+  },
+  "author": "Andre Assis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrehmassis/COMP229-Labs/tree/main/Week4_0613"
+  },
+  "homepage": "https://github.com/andrehmassis/COMP229-Labs/tree/main/Week4_0613"
+}

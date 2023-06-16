@@ -2,9 +2,8 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 
-// Connect to our Game Model
+// connect to our Game Model
 let Game = require('../models/game');
-//const { response } = require('../config/app');
 
 // Get Route for the Game List page
 router.get('/', async (req, res, next) =>{

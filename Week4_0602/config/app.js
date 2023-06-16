@@ -4,7 +4,7 @@ let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
-//database setup
+// database setup
 let mongoose = require('mongoose');
 let DB = require('./db');
 
@@ -16,9 +16,9 @@ let gamesRouter = require('../routes/game');
 mongoose.connect(DB.URI);
 
 let mongoDB = mongoose.connection;
-mongoDB.on('error', console.error.bind(console, 'Connection Error: '));
+mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
 mongoDB.once('open', ()=>{
-  console.log('Connected to MongoDB...')
+  console.log('Connected to MongoDB...');
 })
 
 let app = express();
@@ -51,7 +51,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', { title: 'Error'});
 });
 
 module.exports = app;
